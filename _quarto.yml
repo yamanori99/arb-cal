@@ -1,0 +1,37 @@
+project:
+  title: arb-cal
+  type: default
+  output-dir: _output/default 
+
+# Global project settings
+toc: true
+toc-location: left
+number-sections: true  # Required for using cross-references
+csl: apa.csl
+link-citations: true
+# editor: visual
+
+output:
+  html:
+    grid: 
+      body-width: 1024px
+    theme: default  # other options: flatly, lumen...
+    highlight-style: github
+    self-contained: false  # The whole page won't function properly if HTML is packed into one file
+
+# Chunk options
+knitr: 
+  opts_chunk: 
+    dpi: 400       # Resolution
+    fig-align: center  # Center align figures
+    # code-fold: true  # Fold code
+    code-summary: code-fold
+    code-overflow: scroll
+    code-line-numbers: true
+    # warning: false  # Suppress warning messages
+    # message: false  # Suppress messages
+    # fig-path: "figures/"  # Directory to save figures
+    # cache: true  # Chunk caching
+    # echo: false  # Do not display code
+    # error: true  # Display error messages
+    # code cell
